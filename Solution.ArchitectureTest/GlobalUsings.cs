@@ -1,5 +1,5 @@
 ﻿global using Xunit;
-global using System.Reflection;
+global using Infrastructure;
 global using ArchUnitNET.xUnit;
 global using ArchUnitNET.Domain;
 global using ArchUnitNET.Loader;
