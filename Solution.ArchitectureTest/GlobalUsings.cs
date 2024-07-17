@@ -1,4 +1,5 @@
 ﻿global using Xunit;
+global using System.Linq;
 global using Infrastructure;
 global using ArchUnitNET.xUnit;
 global using ArchUnitNET.Domain;
