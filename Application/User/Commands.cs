@@ -2,9 +2,13 @@
 
 public class Commands
 {
-    public Task CreateUserSilentlyAsync()
+
+    public class CreateUserCommand
     {
-        //Create User
-        return Task.CompletedTask;
+        public string Name { get; set; }
+
+        public string Email { get; set; }
+
+        public string Username { get; set; }
     }
 }
